@@ -3,6 +3,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Events from './components/Events';
 import Our_Team from './components/Our_Team';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/Footer';
 import './App.css';
 
 //ORIGINAL WEBSIT http://yalecompsociety.org/
@@ -26,7 +28,7 @@ function App() {
         <Projects/>
         <Events/>
         <Our_Team/>
-
+        <Footer/>
       </header>
     </div>
   );
