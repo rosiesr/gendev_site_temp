@@ -1,4 +1,5 @@
 import Text from './Text';
+import pic1 from './pic1.png'
 
 export default function About() {
     return (
@@ -7,8 +8,10 @@ export default function About() {
                 <div className="row justify-content-center">
                     <div className="col-lg-6 section-title">
                         <h2>About </h2>
-                        <p>This is a site about the Yale Computer Socity</p>
                         <Text text={"text for the about page"}/>
+                        <Image pic={pic1}/>
+                        <Text text={"What we do:"}/>
+                        <List items={["thing 1","thing 2","thing 3"]}/>
                     </div>
                 </div>
             </div>
